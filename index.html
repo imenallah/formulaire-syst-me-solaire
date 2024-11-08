@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رأيك في الموقع</title>
+</head>
+<body>
+    <h1>رأيك في الموقع</h1>
+    <form>
+        <div>    
+        <label for="name">اسم المستخدم</label>
+        <input id="name" type="text" name="nom">
+        </div>
+        <div>
+            <label for="bday">تاريخ الميلاد</label>
+            <input id="bday" type="date" name="date naissance">
+        </div>
+        <div>
+            <label for="genre">رجل</label>
+            <input id="genre" type="radio" name="genre">
+            <br>
+            <label for="genre">إمرأة</label>
+            <input id="genre" type="radio" name="genre">
+        </div>
+        <div>
+            <label for="mail">البريد الإلكتروني</label>
+            <input id="mail" type="email" name="mail">
+        </div>
+        <div>
+             <select name="الولاية">
+                <option value="Ariana">Ariana</option>
+                <option value="Béja">Béja</option>
+                <option value="Ben Arous">Ben Arous</option>
+                <option value="Bizert">Bizert</option>
+                <option value="Gabés">Gabés</option>
+                <option value="Gafsa">Gafsa</option>
+                <option value="Jendouba">Jendouba</option>
+                <option value="Kairouan">Kairouan</option>
+                <option value="Kasserine">Kasserine</option>
+                <option value="Kébili">Kébili</option>
+                <option value="Kef">Kef</option>
+                <option value="Mahdia">Mahdia</option>
+                <option value="Manouba">Manouba</option>
+                <option value="Médenine">Médenine</option>
+                <option value="Monastir">Monastir</option>
+                <option value="Nabeul">Nabeul</option>
+                <option value="Sfax">Sfax</option>
+                <option value="Sidi Bouzid">Sidi Bouzid</option>
+                <option value="Siliana">Siliana</option>
+                <option value="Sousse">Sousse</option>
+                <option value="Tataouine">Tataouine</option>
+                <option value="Tozeur">Tozeur</option>
+                <option value="Tunis">Tunis</option>
+                <option value="Zaghouan">Zaghouan</option> 
+            </select>
+        </div>
+        <div>
+            <select name="تقييم">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <p>رأي<textarea name="resume" rows="4" cols="20"></textarea></p>
+    </div>
+    <div>
+        <input type="submit" value="ارسل">
+    </div>
+    
+</body>
+</html>
